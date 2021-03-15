@@ -1,0 +1,114 @@
+@import './normalizer.css';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+body {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #666;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #666;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.main-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nouns-per-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding-bottom: 20px;
+}
+
+.nouns-per-article__column {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.04);
+}
+
+.nouns-per-article__title {
+    margin: 0;
+    font-size: 2rem;
+    padding: 12px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nouns-per-article__title span {
+    font-size: 0.8em;
+}
+
+.nouns-per-article__percentage {
+    padding: 14px;
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    margin: 0;
+}
+
+.nouns-per-article__percentage span {
+    font-size: 0.5em;
+}
+
+.nouns-per-article:not(.nouns-per-article--general)
+    .nouns-per-article__percentage-symb-around {
+    display: none;
+}
+
+.nouns-per-article__list {
+    padding: 12px 14px;
+    color: #666;
+    font-weight: 600;
+}
+
+.nouns-per-article__list ol {
+    margin: 0;
+    height: 350px;
+    overflow: auto;
+}
+
+.nouns-per-article__list li {
+    margin-bottom: 4px;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter label {
+    margin-right: 5px;
+}
+
+.filter select,
+.filter input {
+    border: 1px solid #ddd;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.filter select {
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+.filter input {
+    padding: 4px 6px;
+}
