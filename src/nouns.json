@@ -1451,7 +1451,7 @@
     },
     "bett": {
         "value": "das Bett",
-        "groups": ["furniture"],
+        "groups": ["furniture", "house"],
         "article": "das"
     },
     "bettwanze": {
@@ -1551,7 +1551,7 @@
     },
     "bild": {
         "value": "das Bild",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "bildschirm": {
@@ -1999,6 +1999,11 @@
         "groups": [],
         "article": "der"
     },
+    "bungalow": {
+        "value": "der Bungalow",
+        "groups": ["house"],
+        "article": "der"
+    },
     "bunker": {
         "value": "der Bunker",
         "groups": [],
@@ -2401,12 +2406,12 @@
     },
     "dach": {
         "value": "die Dach",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "dachboden": {
         "value": "der Dachboden",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "dachreling": {
@@ -2896,7 +2901,7 @@
     },
     "dusche": {
         "value": "die Dusche",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "dvd-laufwerk": {
@@ -3429,6 +3434,11 @@
         "article": "das",
         "value": "das Erdferkel"
     },
+    "erdgeschoss": {
+        "value": "das Erdgeschoss",
+        "groups": ["house"],
+        "article": "das"
+    },
     "erdmännchen": {
         "groups": ["animals"],
         "article": "das",
@@ -3861,7 +3871,7 @@
     },
     "fenster": {
         "value": "das Fenster",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "fernglas": {
@@ -3873,6 +3883,11 @@
         "value": "das Fernsehen",
         "groups": [],
         "article": "das"
+    },
+    "fernseher": {
+        "value": "der Fernseher",
+        "groups": ["house"],
+        "article": "der"
     },
     "ferse": {
         "value": "die Ferse",
@@ -4506,7 +4521,7 @@
     },
     "garage": {
         "value": "die Garage",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "garderobenständer": {
@@ -4566,7 +4581,7 @@
     },
     "gasthaus": {
         "value": "das Gasthaus",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "gate": {
@@ -5511,7 +5526,7 @@
     },
     "handtuch": {
         "value": "das Handtuch",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "handvoll": {
@@ -5581,7 +5596,7 @@
     },
     "haus": {
         "value": "das Haus",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "hausaufgabe": {
@@ -5591,7 +5606,7 @@
     },
     "haushalt": {
         "value": "der Haushalt",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "hausschuh": {
@@ -5603,6 +5618,11 @@
         "value": "das Haustier",
         "groups": [],
         "article": "das"
+    },
+    "haustür": {
+        "value": "die Haustür",
+        "groups": ["house"],
+        "article": "die"
     },
     "haut": {
         "value": "die Haut",
@@ -5626,7 +5646,7 @@
     },
     "hecke": {
         "value": "die Hecke",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "heckklappe": {
@@ -5711,7 +5731,7 @@
     },
     "herrenhaus": {
         "value": "das Herrenhaus",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "herrlichkeit": {
@@ -6506,7 +6526,7 @@
     },
     "kamin": {
         "value": "der Kamin",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "kamm": {
@@ -6954,6 +6974,11 @@
         "article": "der",
         "value": "der Klipper"
     },
+    "klo": {
+        "value": "das Klo",
+        "groups": ["house"],
+        "article": "das"
+    },
     "klopf": {
         "value": "die Klopf",
         "groups": [],
@@ -7136,7 +7161,7 @@
     },
     "kommode": {
         "value": "die Kommode",
-        "groups": ["furniture"],
+        "groups": ["furniture", "house"],
         "article": "die"
     },
     "kommunikation": {
@@ -7786,7 +7811,7 @@
     },
     "lampe": {
         "value": "die Lampe",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "land": {
@@ -8764,6 +8789,11 @@
         "groups": [],
         "article": "die"
     },
+    "mieter": {
+        "value": "der Mieter",
+        "groups": ["house"],
+        "article": "der"
+    },
     "mikrofon": {
         "value": "das Mikrofon",
         "groups": ["computer"],
@@ -9101,7 +9131,7 @@
     },
     "möbel": {
         "value": "die Möbel",
-        "groups": [],
+        "groups": ["furniture", "house"],
         "article": "die"
     },
     "möglichkeit": {
@@ -9166,7 +9196,7 @@
     },
     "nachbar": {
         "value": "der Nachbar",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "nachbarschaft": {
@@ -9210,7 +9240,7 @@
         "article": "das"
     },
     "nachttisch": {
-        "groups": ["furniture"],
+        "groups": ["furniture", "house"],
         "article": "der",
         "value": "der Nachttisch"
     },
@@ -9708,6 +9738,11 @@
         "value": "das Park",
         "groups": [],
         "article": "das"
+    },
+    "parkplatz": {
+        "value": "der Parkplatz",
+        "groups": ["house"],
+        "article": "der"
     },
     "partikel": {
         "value": "die Partikel",
@@ -10591,7 +10626,7 @@
     },
     "rasen": {
         "value": "der Rasen",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "rasiermesser": {
@@ -10641,7 +10676,7 @@
     },
     "raum": {
         "value": "der Raum",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "raupe": {
@@ -11691,7 +11726,7 @@
     },
     "schlüssel": {
         "value": "der Schlüssel",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "schmerz": {
@@ -12296,7 +12331,7 @@
     },
     "sessel": {
         "value": "der Sessel",
-        "groups": ["furniture"],
+        "groups": ["furniture", "house"],
         "article": "der"
     },
     "seufzer": {
@@ -12651,7 +12686,7 @@
     },
     "spiegel": {
         "value": "der Spiegel",
-        "groups": ["furniture"],
+        "groups": ["furniture", "house"],
         "article": "der"
     },
     "spiel": {
@@ -12993,6 +13028,11 @@
         "value": "der Stock",
         "groups": [],
         "article": "der"
+    },
+    "stockwerk": {
+        "value": "das Stockwerk",
+        "groups": ["house"],
+        "article": "das"
     },
     "stolz": {
         "value": "der Stolz",
@@ -13591,7 +13631,7 @@
     },
     "teppich": {
         "value": "der Teppich",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "termin": {
@@ -13611,7 +13651,7 @@
     },
     "terrasse": {
         "value": "die Terrasse",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "territorium": {
@@ -13886,12 +13926,12 @@
     },
     "treppen": {
         "value": "die Treppen",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "treppenhaus": {
         "value": "das Treppenhaus",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "treue": {
@@ -14031,7 +14071,7 @@
     },
     "tür": {
         "value": "die Tür",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "türklingel": {
@@ -14051,7 +14091,7 @@
     },
     "uhr": {
         "value": "die Uhr",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "ulmen": {
@@ -14326,7 +14366,7 @@
     },
     "vase": {
         "value": "die Vase",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "vater": {
@@ -14492,6 +14532,11 @@
     "verlust": {
         "value": "der Verlust",
         "groups": [],
+        "article": "der"
+    },
+    "vermieter": {
+        "value": "der Vermieter",
+        "groups": ["house"],
         "article": "der"
     },
     "vermietung": {
@@ -14869,6 +14914,11 @@
         "groups": [],
         "article": "die"
     },
+    "wand": {
+        "value": "die Wand",
+        "groups": ["house"],
+        "article": "die"
+    },
     "wanderer": {
         "value": "der Wanderer",
         "groups": [],
@@ -14956,7 +15006,7 @@
     },
     "waschbecken": {
         "value": "das Waschbecken",
-        "groups": [],
+        "groups": ["house"],
         "article": "das"
     },
     "waschbär": {
@@ -15058,11 +15108,6 @@
         "value": "das Weinen",
         "groups": [],
         "article": "das"
-    },
-    "weinkeller": {
-        "groups": ["house"],
-        "article": "der",
-        "value": "der Weinkeller"
     },
     "weinstock": {
         "value": "der Weinstock",
@@ -15376,7 +15421,7 @@
     },
     "wohnung": {
         "value": "die Wohnung",
-        "groups": [],
+        "groups": ["house"],
         "article": "die"
     },
     "wohnzimmer": {
@@ -15586,7 +15631,7 @@
     },
     "zaun": {
         "value": "der Zaun",
-        "groups": [],
+        "groups": ["house"],
         "article": "der"
     },
     "zaunkönig": {
